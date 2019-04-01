@@ -1,12 +1,96 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
+    "inputs": [
+        {
+            "id" : 1,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "operation": "BO-L1117",
+            "contract": "3725/BL-BO",
+            "asistente" : "FSTEFANELLI",
+            "asig" : "PMOR",
+            "status" : "pendiente",
+            "senddate" : "15 jan 19",
+            "stampdate" :  "15 Jan 19",
+            "reference" : "",
+            "outputsrelate":  "ITE-SISCOR-3/2019 -En pausa"
+        },
+        {
+            "id" : 2,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "operation": "BO-L1117",
+            "contract": "3725/BL-BO",
+            "asistente" : "FSTEFANELLI",
+            "asig": "PMOR",
+            "status" : "pendiente",
+            "senddate" : "15 jan 19",
+            "stampdate" :  "15 Jan 19",
+            "reference" : "",
+            "outputsrelate":  "ITE-SISCOR-3/2019 -En pausa"
+        },
+        {
+            "id" : 3,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "operation": "BO-L1117",
+            "contract": "3725/BL-BO",
+            "asistente" : "FSTEFANELLI",
+            "asig": "PMOR",
+            "status" : "pendiente",
+            "senddate" : "15 jan 19",
+            "stampdate" :  "15 Jan 19",
+            "reference" : "",
+            "outputsrelate":  "ITE-SISCOR-3/2019 -En pausa"
+        }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+    "outputs": [
+        {
+            "id" : 1,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "status": "Rechazada",
+            "senddate" : "15 jan 19",
+            "author" : "FSTEFANELLI",
+            "assistant" : "PMOR",
+            "signer": "",
+            "currentapprover" : "",
+            "inputsrelate":  "ITE-SISCOR-3/2019 -Pendiente"
+        },
+        {
+            "id" : 2,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "status": "Rechazada",
+            "senddate" : "15 jan 19",
+            "author" : "FSTEFANELLI",
+            "assistant" : "PMOR",
+            "signer": "",
+            "currentapprover" : "",
+            "inputsrelate":  "ITE-SISCOR-3/2019 -Pendiente"
+        },
+        {
+            "id" : 3,
+            "nrosiscor" : "ITE-SISCOR-3",
+            "year" : "2019",
+            "subject" : "TEST.docx",
+            "status": "Rechazada",
+            "senddate" : "15 jan 19",
+            "author" : "FSTEFANELLI",
+            "assistant" : "PMOR",
+            "signer": "",
+            "currentapprover" : "",
+            "inputsrelate":  "ITE-SISCOR-3/2019 -Pendiente"
+        }
+    ],
+    "inbox": [
+        { "id" : 1, "name" : "TEST.docx", "registered" : "SISCOR365"},
+        { "id" : 2, "name" : "SISCOR-365-368.docx", "registered" : "Isamar Davila"},
+        { "id" : 3, "name" : "test123.docx", "registered" : "Fernando Stefanelli" }
     ],
     "profile": {
       "name": "typicode"
